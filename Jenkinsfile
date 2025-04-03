@@ -36,7 +36,9 @@ pipeline {
 				echo "Integration Test"
 			}
 		}
-	} post {
+	} 
+	
+	post {
 		always {
 			echo "always 50 passes"
 		}
