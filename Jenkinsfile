@@ -42,7 +42,7 @@ pipeline {
 		always {
 			echo "always 50 passes"
 		}
-		sucCess {
+		success {
 			echo "sucess 50 passes"
 		}
 		failure {
