@@ -36,6 +36,17 @@ pipeline {
 				echo "Integration Test"
 			}
 		}
+	} post {
+		always {
+			echo 'always 50 passes'
+		}
+		sucess {
+			echo 'sucess 50 passes'
+		}
+		failure {
+			echo 'sucess 50 passes'
+		}
 	}
+	
 }
 
